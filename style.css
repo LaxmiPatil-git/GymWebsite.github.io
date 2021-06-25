@@ -1,0 +1,95 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("Background.jpg");
+  background-size: 40%;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 32px;
+  top: 29px;
+}
+.left img {
+  width: 135px;
+  margin-left: 3px;
+  padding: 9px;
+}
+.left div {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+.mid {
+   display: block;
+  width: 49%;
+  margin: 54px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 7px;
+  top: 57px;
+   width: 19%;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+}
+.btn {
+  margin: 0px 4px;
+  background-color: black;
+  color: white;
+  padding: 11px 7px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+.btn:hover {
+  background-color: gray;
+}
+.container {
+  border: 2px solid white;
+  margin: 125px 2px 34px 48px;
+  padding: 28px 150px;
+  width: 40%;
+  border-radius: 15px;
+}
+.container h1 {
+  color: gold;
+  font-size: 40px;
+  text-align: center;
+}
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 385px;
+  padding: 9px;
+  border: 2px solid black;
+  margin: 10px auto;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container button {
+  display: block;
+  width: 66%;
+  margin: 15px auto;
+}
